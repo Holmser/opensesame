@@ -28,6 +28,16 @@
                 "file": "fonts/UbuntuMono-Regular.ttf",
                 "name": "MONO_FONT_14",
                 "type": "font"
+            },
+            {
+                "file": "images/Garage Door Open.png",
+                "name": "IMAGES_GARAGE_DOOR_OPEN_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/Garage Door Closed.png",
+                "name": "IMAGES_GARAGE_DOOR_CLOSED_PNG",
+                "type": "png"
             }
         ]
     },

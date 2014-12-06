@@ -13,11 +13,12 @@ var card = new UI.Card({
 
 var status = require('ajax');
 status({ url: 'https://api.spark.io/v1/devices/54ff6f066667515118431567/status?access_token=fb1fd9f26a1acc89a28322cdbf81a3d78224ed68', 
-         method:'post'
+         method:'post',
+         type: 'json'
      },
  function(data) {
   // Success!
-   console.log(data);
+   console.log(data.return_value);
    if (data.return_value == 1){
      console.log('matched 1');
      card.body('Door is Open');
